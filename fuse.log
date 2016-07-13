@@ -1,0 +1,22 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o x_synthesis.exe -prj ipcr.prj work.tst1 work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "netgen\synthesis\top_modul_synthesis.v" into library top_modul
+Analyzing Verilog file "tst1.v" into library top_modul
+Starting static elaboration
+Completed static elaboration
+Compiling module rmm(n=4,w=8)
+Compiling module enc(n=12,k=8)
+Compiling module err(n=12)
+Compiling module decod(n=12,k=8)
+Compiling module top_modul
+Compiling module tst1
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 7 Verilog Units
+Built simulation executable x_synthesis.exe
+Fuse Memory Usage: 27204 KB
+Fuse CPU Usage: 889 ms

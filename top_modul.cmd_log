@@ -1,0 +1,33 @@
+xst -intstyle ise -ifn "C:/Xilinx/ip_hamm/top_modul.xst" -ofn "C:/Xilinx/ip_hamm/top_modul.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/ip_hamm/top_modul.xst" -ofn "C:/Xilinx/ip_hamm/top_modul.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/ip_hamm/top_modul.xst" -ofn "C:/Xilinx/ip_hamm/top_modul.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/ip_hamm/top_modul.xst" -ofn "C:/Xilinx/ip_hamm/top_modul.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim top_modul.ngc top_modul_synthesis.v 
+xst -intstyle ise -ifn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.xst" -ofn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim top_modul.ngc top_modul_synthesis.v 
+xst -intstyle ise -ifn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.xst" -ofn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim top_modul.ngc top_modul_synthesis.v 
+xst -intstyle ise -ifn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.xst" -ofn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim top_modul.ngc top_modul_synthesis.v 
+xst -intstyle ise -ifn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.xst" -ofn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim top_modul.ngc top_modul_synthesis.v 
+xst -intstyle ise -ifn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.xst" -ofn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim top_modul.ngc top_modul_synthesis.v 
+xst -intstyle ise -ifn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.xst" -ofn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim top_modul.ngc top_modul_synthesis.v 
+xst -intstyle ise -ifn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.xst" -ofn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim top_modul.ngc top_modul_synthesis.v 
+xst -intstyle ise -ifn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.xst" -ofn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim top_modul.ngc top_modul_synthesis.v 
+xst -intstyle ise -ifn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.xst" -ofn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim top_modul.ngc top_modul_synthesis.v 
+xst -intstyle ise -ifn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.xst" -ofn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.xst" -ofn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.xst" -ofn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 top_modul.ngc top_modul.ngd  
+xst -intstyle ise -ifn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.xst" -ofn "C:/Xilinx/14.2/ISE_DS/project_fpga/top_modul.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim top_modul.ngc top_modul_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_modul.ucf -p xc7a100t-csg324-3 top_modul.ngc top_modul.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_modul_map.ncd top_modul.ngd top_modul.pcf 
+par -w -intstyle ise -ol high -mt off top_modul_map.ncd top_modul.ncd top_modul.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top_modul.twx top_modul.ncd -o top_modul.twr top_modul.pcf -ucf top_modul.ucf 

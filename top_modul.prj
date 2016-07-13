@@ -1,0 +1,5 @@
+verilog work "rmm.v"
+verilog work "err.v"
+verilog work "enc.v"
+verilog work "decod.v"
+verilog work "top_modul.v"

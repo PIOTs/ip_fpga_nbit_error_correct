@@ -1,0 +1,2 @@
+verilog top_modul netgen\synthesis\top_modul_synthesis.v
+verilog top_modul tst1.v

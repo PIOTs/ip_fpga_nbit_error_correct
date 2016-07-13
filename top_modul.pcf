@@ -1,0 +1,15 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Sat May 07 13:44:14 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+TIMEGRP clk = BEL "rm/data_out_7" BEL "rm/data_out_6" BEL "rm/data_out_5" BEL
+        "rm/data_out_4" BEL "rm/data_out_3" BEL "rm/data_out_2" BEL
+        "rm/data_out_1" BEL "rm/data_out_0" BEL "clk_BUFGP/BUFG" BEL
+        "rm/Mram_reg_array1" BEL "rm/Mram_reg_array2" BEL "rm/Mram_reg_array3"
+        BEL "rm/Mram_reg_array4" BEL "rm/Mram_reg_array5" BEL
+        "rm/Mram_reg_array6" BEL "rm/Mram_reg_array7" BEL
+        "rm/Mram_reg_array8";
+TS_clk = PERIOD TIMEGRP "clk" 20 ns HIGH 50%;
+SCHEMATIC END;
+

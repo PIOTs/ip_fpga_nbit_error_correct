@@ -1,0 +1,7 @@
+verilog work "rmm.v"
+verilog work "err.v"
+verilog work "enc.v"
+verilog work "decod.v"
+verilog work "top_modul.v"
+verilog work "tst1.v"
+verilog work "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

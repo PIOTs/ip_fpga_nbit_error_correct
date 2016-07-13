@@ -1,0 +1,9 @@
+ISim log file
+Running: x_synthesis.exe -gui 
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 57506621 ns : File "C:/Xilinx/ip_hamm/rmm.v" Line 36
